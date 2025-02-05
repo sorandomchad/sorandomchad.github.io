@@ -1,0 +1,50 @@
+* {
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+/* body {
+    overflow: scroll;
+} */
+
+/* #middle {
+    background-image: url("resources/media/images/js_html_css.png");
+} */
+
+#top-nav {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+nav li {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+
+nav li:hover {
+    color: white;
+    background-color: lightblue;
+}
+
+#title {
+    position: relative;
+    top: 25px;
+}
+
+table {
+    text-align: center;
+    font-family: Calibri;
+    background-color: #97550e;
+    /* border: 2px solid black; */
+  }
+
+td {
+    width: 300px;
+    border: 2px solid black;
+}
+
+th {
+    border: 2px solid black;
+}
